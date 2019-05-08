@@ -5,5 +5,5 @@ WORKDIR /app
 
 RUN apk add --no-cache ca-certificates bash postgresql-client python3
 RUN npm install -g yarn gatsby-cli
-RUN pip3 install awscli --upgrade --user
+RUN pip3 install awscli --upgrade
 
